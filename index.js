@@ -16,7 +16,7 @@ mongoose
   .connect(
     `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@cluster0.8iandec.mongodb.net/?retryWrites=true&w=majority`,
     {
-      
+      family:4
       useNewUrlParser: true, 
       useUnifiedTopology: true 
     }
